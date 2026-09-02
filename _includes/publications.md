@@ -25,15 +25,15 @@
         {% else %}
         {{ link.title }}
         {% endif %}
+        {% if link.role %}
         <span class="pub-title-meta">
-          {% if link.ccf %}<span class="pub-meta-item">CCF-{{ link.ccf }}</span>{% endif %}
           {% if link.role == 'corresponding' %}
           <span class="pub-meta-item">{% if is_zh contains "zh" %}通讯作者{% else %}Corresponding Author{% endif %}</span>
           {% elsif link.role == 'co_advising' %}
           <span class="pub-meta-item">{% if is_zh contains "zh" %}协助指导{% else %}Co-advising{% endif %}</span>
           {% endif %}
-          {% if note_type == 'oral' %}<span class="pub-meta-item pub-meta-oral">Oral</span>{% endif %}
         </span>
+        {% endif %}
       </div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
@@ -42,6 +42,8 @@
       {% if link.pdf %} 
       <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">PDF</a>
       {% endif %}
+      {% if link.ccf %}<strong><i class="pub-ccf-note">CCF-{{ link.ccf }}</i></strong>{% endif %}
+      {% if note_type == 'oral' %}<strong><i class="pub-oral-note">Oral</i></strong>{% endif %}
       {% assign github_link = link.github %}
       {% if github_link == nil %}
         {% if link.code contains 'github.com' %}

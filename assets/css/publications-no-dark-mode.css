@@ -54,7 +54,8 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li .pub-meta-item { color: var(--global-theme-color); font-size: 0.82em; font-weight: 650; }
 
-.publications ol.bibliography li .pub-meta-oral { color: #e74d3c; }
+.publications ol.bibliography li .pub-ccf-note,
+.publications ol.bibliography li .pub-oral-note { color: #e74d3c; margin-left: 0.65rem; }
 
 .publications ol.bibliography li .author a { border-bottom: 1px var(--global-theme-color); }
 

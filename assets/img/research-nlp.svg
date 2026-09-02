@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-labelledby="title desc">
+  <title id="title">NLP research card</title>
+  <desc id="desc">A clean abstract diagram representing natural language processing.</desc>
+  <rect width="360" height="220" rx="12" fill="#f2f1fb"/>
+  <path d="M64 58h170a34 34 0 0 1 0 68h-70l-52 40v-40H64a34 34 0 0 1 0-68z" fill="#ffffff" stroke="#483d8b" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M84 85h128M84 108h86" stroke="#483d8b" stroke-width="8" stroke-linecap="round" opacity="0.72"/>
+  <path d="M248 126l42 42M262 168h60M290 140v60" stroke="#d66f5d" stroke-width="8" stroke-linecap="round"/>
+  <text x="38" y="190" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#483d8b">NLP</text>
+</svg>

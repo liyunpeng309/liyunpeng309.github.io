@@ -1,89 +1,190 @@
-# Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+# Yunpeng Li Academic Homepage
 
-![Academic Pages template example](images/homepage.png "Academic Pages template example")
+这是李运鹏个人学术主页的 GitHub Pages 仓库，网站地址：
 
-# Getting Started
+- English: https://liyunpeng19970428.github.io/
+- 中文: https://liyunpeng19970428.github.io/zh/
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+本文件是维护说明，不会影响网页显示。`_config.yml` 已经把 `README.md` 加入 `exclude`，因此 GitHub Pages 构建网站时会忽略它。
 
-See more info at https://academicpages.github.io/
+## 日常维护看哪里
 
-## Running locally
+- 英文正文：`index.md`
+  - 修改英文 `About Me`、`Research Interests`、`News`。
+- 中文正文：`zh.md`
+  - 修改中文 `个人简介`、`研究方向`、`最新动态`。
+- 论文列表：`_data/publications.yml`
+  - 中英文页面共用同一份论文数据。
+  - 论文题名、作者、会议名、PDF、GitHub、Hugging Face、论文图片都在这里维护。
+- 左侧个人信息和链接：`_config.yml`
+  - 修改姓名、职称、单位、邮箱、Google Scholar、OpenReview、ORCID、头像等。
+- 论文图片和头像：`assets/img/`
+  - 论文图片建议使用清晰的 PNG。
+  - 当前论文缩略图展示比例为 16:9。
+- 论文列表模板：`_includes/publications.md`
+  - 一般不用改，除非要调整论文卡片显示哪些按钮。
 
-When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+## 中英文页面如何同步
 
-1. Clone the repository and made updates as detailed above.
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    If you see error `Unable to locate package ruby-bundler`, `Unable to locate package nodejs `, run the following:
-    ```bash
-    sudo apt update && sudo apt upgrade -y
-    ```
-    then try run `sudo apt install ruby-dev ruby-bundler nodejs` again.
+论文列表只需要维护一份：`_data/publications.yml`。
 
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
+英文首页 `/` 和中文页 `/zh/` 都会读取这一份论文数据，所以新增、删除或修改论文后，两边会同时更新。
 
-    If you see file permission error like `Fetching bundler-2.6.3.gem ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
-    Install Gems Locally (Recommended):
-    ```bash
-    bundle config set --local path 'vendor/bundle'
-    ```
-    then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and open `.gitignore` then add `vendor` inside it.
+需要分别维护的是页面正文：
 
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
-    You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
+- 英文介绍和英文新闻：改 `index.md`
+- 中文介绍和中文新闻：改 `zh.md`
 
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
+## 添加一篇论文
 
-## Using Docker
+打开 `_data/publications.yml`，复制一篇已有论文条目，然后改成新论文信息。例如：
 
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
-
-You can build and execute the container by running the following command in the repository:
-
-```bash
-docker compose up
+```yml
+  - title: "Paper Title Here"
+    authors: First Author, <strong>Yunpeng Li</strong>, Other Author
+    conference_short: ACL
+    conference: Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026.
+    pdf: https://example.com/paper.pdf
+    page: https://example.com/
+    image: /assets/img/paper-name.png
+    notes: Poster
 ```
 
-You should now be able to access the website from `localhost:4000`.
+如果有 GitHub 或 Hugging Face 链接，可以继续添加：
 
-# Maintenance
+```yml
+    github: https://github.com/xxx/yyy
+    huggingface: https://huggingface.co/xxx/yyy
+```
 
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
+字段说明：
 
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
+- `title`: 论文标题。中文页也保持英文，不需要翻译。
+- `authors`: 作者列表。可以用 `<strong>Yunpeng Li</strong>` 加粗本人姓名。
+- `conference_short`: 左上角的小标签，例如 `ACL`、`NeurIPS`、`WWW`。
+- `conference`: 完整会议或期刊信息。
+- `pdf`: PDF 链接。页面会显示 `PDF` 按钮。
+- `page`: 论文主页或 OpenReview / ACL Anthology 页面。目前页面不显示 `Page` 按钮，但可以保留作为数据记录。
+- `image`: 论文缩略图路径。图片应放在 `assets/img/` 下，并使用 `/assets/img/xxx.png` 这种路径。
+- `notes`: 只有写 `Poster` 或 `Oral` 时，页面才会额外显示该标记。
+- `github`: 可选。有则显示 `GitHub` 按钮。
+- `huggingface`: 可选。有则显示 `Hugging Face` 按钮。
 
-## Bugfixes and enhancements
+## 添加论文图片
 
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
+1. 把图片上传到 `assets/img/`。
+2. 文件名建议简洁，例如 `paper-new-work.png`。
+3. 在 `_data/publications.yml` 里写：
 
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
+```yml
+    image: /assets/img/paper-new-work.png
+```
 
----
-<div align="center">
-    
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
+建议图片比例接近 16:9，或者至少不要太窄太长。当前页面会把图片显示为统一的论文缩略图。
 
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
-</div>
+## 修改新闻
+
+英文新闻在 `index.md`：
+
+```md
+- **[2026]** Our paper **XXX** was accepted by ACL 2026.
+```
+
+中文新闻在 `zh.md`：
+
+```md
+- **[2026]** 论文 **XXX** 被 ACL 2026 接收。
+```
+
+新闻不是自动翻译的。如果希望中英文新闻一致，需要在两个文件里各写一条。
+
+## 修改个人简介和研究方向
+
+英文页面改 `index.md`：
+
+- `## About Me`
+- `## Research Interests`
+- `## News`
+
+中文页面改 `zh.md`：
+
+- `## 个人简介`
+- `## 研究方向`
+- `## 最新动态`
+
+## 修改左侧栏信息
+
+打开 `_config.yml`，常用字段包括：
+
+```yml
+title: Yunpeng Li
+position: Associate Professor
+affiliation: Institute of Information Engineering, Chinese Academy of Sciences
+email: liyunpeng (at) iie.ac.cn
+google_scholar: https://scholar.google.com/citations?hl=en&user=CDyIJocAAAAJ
+openreview: https://openreview.net/profile?id=~Yunpeng_Li7
+orcid: https://orcid.org/0000-0002-5156-889X
+acl_anthology: https://aclanthology.org/people/yunpeng-li/
+```
+
+中文页左侧显示的中文姓名、中文职称和中文单位在 `zh.md` 的顶部：
+
+```yml
+profile_name: 李运鹏
+profile_position: 副研究员
+profile_affiliation: 中国科学院信息工程研究所
+```
+
+## 直接在 GitHub 网页上修改
+
+如果直接在 GitHub 上编辑文件，不需要手动运行命令部署。
+
+步骤：
+
+1. 打开仓库：https://github.com/liyunpeng19970428/liyunpeng19970428.github.io
+2. 找到要修改的文件，例如 `_data/publications.yml`、`index.md`、`zh.md`。
+3. 点击右上角编辑按钮。
+4. 修改内容。
+5. 点击 `Commit changes`。
+6. 确认提交到 `main` 分支。
+7. 等几十秒到两分钟，GitHub Pages 会自动重新构建网站。
+
+更新后访问：
+
+- https://liyunpeng19970428.github.io/
+- https://liyunpeng19970428.github.io/zh/
+
+## 在本地修改并发布
+
+如果在本地电脑上修改，提交和发布流程是：
+
+```powershell
+cd "C:\Users\lumin\Documents\New project"
+git status
+git add .
+git commit -m "Update homepage"
+git push origin main
+```
+
+推送到 `main` 后，GitHub Pages 会自动部署。
+
+## 本地预览
+
+本地预览需要 Ruby 和 Bundler：
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+然后打开：
+
+```text
+http://localhost:4000/
+```
+
+如果本机没有 Ruby / Bundler，也可以直接提交到 GitHub，等 GitHub Pages 构建完成后在线检查。
+
+## Attribution
+
+This site is adapted from [Minimal Light](https://github.com/yaoyao-liu/minimal-light), which is licensed under CC0-1.0.

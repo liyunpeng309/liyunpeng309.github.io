@@ -1,0 +1,74 @@
+main:
+
+  - title: "RepGuard: Adaptive Feature Decoupling for Robust Backdoor Defense in Large Language Models"
+    authors: Chenxu Niu, Jie Zhang, Yanbing Liu, <strong>Yunpeng Li</strong>, Jinta Weng, Yue Hu
+    conference_short: NeurIPS
+    conference: 39th Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
+    pdf: https://openreview.net/pdf?id=jv7OHhQ0YP
+    page: https://openreview.net/forum?id=jv7OHhQ0YP
+    image: /assets/img/paper-repguard.png
+    notes: Poster
+
+  - title: "Not All Benignware Are Alike: Enhancing Clean-Label Attacks on Malware Classifiers"
+    authors: Xutong Wang, Yun Feng, Bingsheng Bi, Yaqin Cao, Ze Jin, Xinyu Liu, Yuling Liu, <strong>Yunpeng Li</strong>
+    conference_short: WWW
+    conference: ACM Web Conference <strong>(WWW)</strong>, 2025.
+    pdf: https://openreview.net/pdf?id=X8oa3cJEfv
+    page: https://openreview.net/forum?id=X8oa3cJEfv
+    image: /assets/img/paper-benignware.png
+    notes: Poster
+
+  - title: "Can We Steer Reasoning Direction by Thinking Intervention?"
+    authors: Xingsheng Zhang, Luxi Xing, Chen Zhang, Yanbing Liu, Yifan Deng, <strong>Yunpeng Li</strong>, Yue Hu, Chenxu Niu
+    conference_short: EMNLP
+    conference: Findings of the Association for Computational Linguistics <strong>(EMNLP)</strong>, 2025.
+    pdf: https://aclanthology.org/2025.findings-emnlp.209.pdf
+    page: https://aclanthology.org/2025.findings-emnlp.209/
+    bibtex: https://aclanthology.org/2025.findings-emnlp.209.bib
+    doi: https://doi.org/10.18653/v1/2025.findings-emnlp.209
+    image: /assets/img/paper-thinking-intervention.png
+
+  - title: "Steering Large Language Models for Cross-lingual Information Retrieval"
+    authors: Ping Guo, Yubing Ren, Yue Hu, Yanan Cao, <strong>Yunpeng Li</strong>, Heyan Huang
+    conference_short: SIGIR
+    conference: 47th International ACM SIGIR Conference on Research and Development in Information Retrieval <strong>(SIGIR)</strong>, 2024.
+    page: https://doi.org/10.1145/3626772.3657819
+    doi: https://doi.org/10.1145/3626772.3657819
+    image: /assets/img/paper-asmr.png
+
+  - title: "Query in Your Tongue: Reinforce Large Language Models with Retrievers for Cross-lingual Search Generative Experience"
+    authors: Ping Guo, Yue Hu, Yanan Cao, Yubing Ren, <strong>Yunpeng Li</strong>, Heyan Huang
+    conference_short: WWW
+    conference: ACM Web Conference <strong>(WWW)</strong>, 2024.
+    pdf: https://openreview.net/pdf?id=Bukc7HhE3Y
+    page: https://openreview.net/forum?id=Bukc7HhE3Y
+    image: /assets/img/paper-query-tongue.png
+    notes: Oral
+
+  - title: "Teaching Large Language Models to Translate on Low-resource Languages with Textbook Prompting"
+    authors: Ping Guo, Yubing Ren, Yue Hu, <strong>Yunpeng Li</strong>, Jiarui Zhang, Xingsheng Zhang, Heyan Huang
+    conference_short: LREC-COLING
+    conference: Joint International Conference on Computational Linguistics, Language Resources and Evaluation <strong>(LREC-COLING)</strong>, 2024.
+    pdf: https://aclanthology.org/2024.lrec-main.1362.pdf
+    page: https://aclanthology.org/2024.lrec-main.1362/
+    bibtex: https://aclanthology.org/2024.lrec-main.1362.bib
+    image: /assets/img/paper-talent.png
+
+  - title: "Psychology-guided Controllable Story Generation"
+    authors: Yuqiang Xie, Yue Hu, <strong>Yunpeng Li</strong>, Guanqun Bi, Luxi Xing, Wei Peng
+    conference_short: COLING
+    conference: 29th International Conference on Computational Linguistics <strong>(COLING)</strong>, 2022.
+    pdf: https://aclanthology.org/anthology-files/pdf/coling/2022.coling-1.564.pdf
+    page: https://aclanthology.org/2022.coling-1.564/
+    bibtex: https://aclanthology.org/2022.coling-1.564.bib
+    image: /assets/img/paper-pics.png
+
+  - title: "Guiding Neural Machine Translation with Semantic Kernels"
+    authors: Ping Guo, Yue Hu, Xiangpeng Wei, Yubing Ren, <strong>Yunpeng Li</strong>, Luxi Xing, Yuqiang Xie
+    conference_short: EMNLP
+    conference: Findings of the Association for Computational Linguistics <strong>(EMNLP)</strong>, 2022.
+    pdf: https://aclanthology.org/2022.findings-emnlp.541.pdf
+    page: https://aclanthology.org/2022.findings-emnlp.541/
+    bibtex: https://aclanthology.org/2022.findings-emnlp.541.bib
+    doi: https://doi.org/10.18653/v1/2022.findings-emnlp.541
+    image: /assets/img/paper-skam.png

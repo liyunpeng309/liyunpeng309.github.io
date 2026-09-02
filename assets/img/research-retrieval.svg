@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-labelledby="title desc">
+  <title id="title">Cross-lingual retrieval research card</title>
+  <desc id="desc">A clean abstract diagram representing multilingual retrieval and search.</desc>
+  <rect width="360" height="220" rx="12" fill="#eef5ef"/>
+  <circle cx="112" cy="96" r="45" fill="#ffffff" stroke="#245f45" stroke-width="6"/>
+  <circle cx="238" cy="118" r="58" fill="#ffffff" stroke="#245f45" stroke-width="6"/>
+  <path d="M146 126l46 32" stroke="#245f45" stroke-width="10" stroke-linecap="round"/>
+  <path d="M84 94h56M112 66c12 19 12 39 0 60M112 66c-12 19-12 39 0 60M193 118h90M238 66c20 31 20 72 0 104M238 66c-20 31-20 72 0 104" stroke="#245f45" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+  <text x="38" y="184" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#245f45">Cross-lingual IR</text>
+</svg>

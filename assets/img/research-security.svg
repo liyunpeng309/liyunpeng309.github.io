@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-labelledby="title desc">
+  <title id="title">Security research card</title>
+  <desc id="desc">A clean abstract diagram representing trustworthy machine learning and security.</desc>
+  <rect width="360" height="220" rx="12" fill="#f7f3ea"/>
+  <path d="M180 38l96 34v58c0 42-38 72-96 92-58-20-96-50-96-92V72l96-34z" fill="#ffffff" stroke="#6b3f1d" stroke-width="6"/>
+  <path d="M180 72v96M138 114h84" stroke="#6b3f1d" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="180" cy="114" r="26" fill="#e76f51" opacity="0.9"/>
+  <path d="M116 54l-30-20M244 54l30-20M116 168l-28 18M244 168l28 18" stroke="#6b3f1d" stroke-width="5" stroke-linecap="round" opacity="0.35"/>
+  <text x="36" y="186" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#6b3f1d">AI Security</text>
+</svg>

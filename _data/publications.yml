@@ -78,17 +78,6 @@ main:
     page: https://openreview.net/forum?id=X8oa3cJEfv
     image: /assets/img/paper-benignware.png
 
-  - title: "Can We Steer Reasoning Direction by Thinking Intervention?"
-    authors: Xingsheng Zhang, Luxi Xing, Chen Zhang, Yanbing Liu, Yifan Deng, <strong>Yunpeng Li</strong>, Yue Hu, Chenxu Niu
-    conference_short: EMNLP
-    conference: Findings of the Association for Computational Linguistics <strong>(EMNLP)</strong>, 2025.
-    ccf: B
-    pdf: https://aclanthology.org/2025.findings-emnlp.209.pdf
-    page: https://aclanthology.org/2025.findings-emnlp.209/
-    bibtex: https://aclanthology.org/2025.findings-emnlp.209.bib
-    doi: https://doi.org/10.18653/v1/2025.findings-emnlp.209
-    image: /assets/img/paper-thinking-intervention.png
-
   - title: "Steering Large Language Models for Cross-lingual Information Retrieval"
     authors: Ping Guo, Yubing Ren, Yue Hu, Yanan Cao, <strong>Yunpeng Li</strong>, Heyan Huang
     conference_short: SIGIR
@@ -127,14 +116,3 @@ main:
     page: https://aclanthology.org/2022.coling-1.564/
     bibtex: https://aclanthology.org/2022.coling-1.564.bib
     image: /assets/img/paper-pics.png
-
-  - title: "Guiding Neural Machine Translation with Semantic Kernels"
-    authors: Ping Guo, Yue Hu, Xiangpeng Wei, Yubing Ren, <strong>Yunpeng Li</strong>, Luxi Xing, Yuqiang Xie
-    conference_short: EMNLP
-    conference: Findings of the Association for Computational Linguistics <strong>(EMNLP)</strong>, 2022.
-    ccf: B
-    pdf: https://aclanthology.org/2022.findings-emnlp.541.pdf
-    page: https://aclanthology.org/2022.findings-emnlp.541/
-    bibtex: https://aclanthology.org/2022.findings-emnlp.541.bib
-    doi: https://doi.org/10.18653/v1/2022.findings-emnlp.541
-    image: /assets/img/paper-skam.png

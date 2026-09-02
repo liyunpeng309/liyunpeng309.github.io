@@ -4,15 +4,18 @@ main:
     authors: Hao Huang, Ruihua Zhou, JiaTang Luo, <strong>Yunpeng Li</strong>, Yuling Liu
     conference_short: ICML
     conference: 43rd International Conference on Machine Learning <strong>(ICML)</strong>, 2026.
+    ccf: A
+    role: corresponding
     pdf: https://openreview.net/pdf?id=AMI4RvJaS0
     page: https://openreview.net/forum?id=AMI4RvJaS0
     image: /assets/img/paper-iacw.svg
-    notes: Poster
 
   - title: "Don’t Corrupt the Fact: A Trustworthy RAG Watermarking Framework based on Dual Factual Shield"
     authors: Hao Huang, JiaTang Luo, Ruihua Zhou, <strong>Yunpeng Li</strong>, Yuling Liu
     conference_short: ACL
     conference: 64th Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026.
+    ccf: A
+    role: corresponding
     pdf: https://aclanthology.org/2026.acl-long.2075.pdf
     page: https://aclanthology.org/2026.acl-long.2075/
     bibtex: https://aclanthology.org/2026.acl-long.2075.bib
@@ -23,6 +26,8 @@ main:
     authors: Yizhe Zeng, Wei Zhang, <strong>Yunpeng Li</strong>, Juxin Xiao, Xiao Wang, Yuling Liu
     conference_short: ACL
     conference: 64th Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026.
+    ccf: A
+    role: co_advising
     pdf: https://aclanthology.org/2026.acl-long.390.pdf
     page: https://aclanthology.org/2026.acl-long.390/
     bibtex: https://aclanthology.org/2026.acl-long.390.bib
@@ -33,6 +38,8 @@ main:
     authors: Peizhuo Lv, Ruihua Zhou, <strong>Yunpeng Li</strong>, Ruigang Liang, Xingshuo Han, XiaoFeng Wang, Wei Dong, Yuling Liu
     conference_short: ACL
     conference: 64th Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026.
+    ccf: A
+    role: co_advising
     pdf: https://aclanthology.org/2026.acl-long.2185.pdf
     page: https://aclanthology.org/2026.acl-long.2185/
     bibtex: https://aclanthology.org/2026.acl-long.2185.bib
@@ -43,6 +50,8 @@ main:
     authors: Mingzhe Lu, Yiwen Wang, Yanbing Liu, Qi You, Chong Liu, Ruize Qin, Haoyu Dong, Wenyu Zhang, JiaRui Zhang, Yue Hu, <strong>Yunpeng Li</strong>
     conference_short: ACL
     conference: 64th Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026.
+    ccf: A
+    role: corresponding
     pdf: https://aclanthology.org/2026.acl-long.1024.pdf
     page: https://aclanthology.org/2026.acl-long.1024/
     bibtex: https://aclanthology.org/2026.acl-long.1024.bib
@@ -53,24 +62,27 @@ main:
     authors: Chenxu Niu, Jie Zhang, Yanbing Liu, <strong>Yunpeng Li</strong>, Jinta Weng, Yue Hu
     conference_short: NeurIPS
     conference: 39th Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
+    ccf: A
+    role: corresponding
     pdf: https://openreview.net/pdf?id=jv7OHhQ0YP
     page: https://openreview.net/forum?id=jv7OHhQ0YP
     image: /assets/img/paper-repguard.png
-    notes: Poster
 
   - title: "Not All Benignware Are Alike: Enhancing Clean-Label Attacks on Malware Classifiers"
     authors: Xutong Wang, Yun Feng, Bingsheng Bi, Yaqin Cao, Ze Jin, Xinyu Liu, Yuling Liu, <strong>Yunpeng Li</strong>
     conference_short: WWW
     conference: ACM Web Conference <strong>(WWW)</strong>, 2025.
+    ccf: A
+    role: corresponding
     pdf: https://openreview.net/pdf?id=X8oa3cJEfv
     page: https://openreview.net/forum?id=X8oa3cJEfv
     image: /assets/img/paper-benignware.png
-    notes: Poster
 
   - title: "Can We Steer Reasoning Direction by Thinking Intervention?"
     authors: Xingsheng Zhang, Luxi Xing, Chen Zhang, Yanbing Liu, Yifan Deng, <strong>Yunpeng Li</strong>, Yue Hu, Chenxu Niu
     conference_short: EMNLP
     conference: Findings of the Association for Computational Linguistics <strong>(EMNLP)</strong>, 2025.
+    ccf: B
     pdf: https://aclanthology.org/2025.findings-emnlp.209.pdf
     page: https://aclanthology.org/2025.findings-emnlp.209/
     bibtex: https://aclanthology.org/2025.findings-emnlp.209.bib
@@ -81,6 +93,7 @@ main:
     authors: Ping Guo, Yubing Ren, Yue Hu, Yanan Cao, <strong>Yunpeng Li</strong>, Heyan Huang
     conference_short: SIGIR
     conference: 47th International ACM SIGIR Conference on Research and Development in Information Retrieval <strong>(SIGIR)</strong>, 2024.
+    ccf: A
     page: https://doi.org/10.1145/3626772.3657819
     doi: https://doi.org/10.1145/3626772.3657819
     image: /assets/img/paper-asmr.png
@@ -89,6 +102,7 @@ main:
     authors: Ping Guo, Yue Hu, Yanan Cao, Yubing Ren, <strong>Yunpeng Li</strong>, Heyan Huang
     conference_short: WWW
     conference: ACM Web Conference <strong>(WWW)</strong>, 2024.
+    ccf: A
     pdf: https://openreview.net/pdf?id=Bukc7HhE3Y
     page: https://openreview.net/forum?id=Bukc7HhE3Y
     image: /assets/img/paper-query-tongue.png
@@ -98,6 +112,7 @@ main:
     authors: Ping Guo, Yubing Ren, Yue Hu, <strong>Yunpeng Li</strong>, Jiarui Zhang, Xingsheng Zhang, Heyan Huang
     conference_short: LREC-COLING
     conference: Joint International Conference on Computational Linguistics, Language Resources and Evaluation <strong>(LREC-COLING)</strong>, 2024.
+    ccf: B
     pdf: https://aclanthology.org/2024.lrec-main.1362.pdf
     page: https://aclanthology.org/2024.lrec-main.1362/
     bibtex: https://aclanthology.org/2024.lrec-main.1362.bib
@@ -107,6 +122,7 @@ main:
     authors: Yuqiang Xie, Yue Hu, <strong>Yunpeng Li</strong>, Guanqun Bi, Luxi Xing, Wei Peng
     conference_short: COLING
     conference: 29th International Conference on Computational Linguistics <strong>(COLING)</strong>, 2022.
+    ccf: B
     pdf: https://aclanthology.org/anthology-files/pdf/coling/2022.coling-1.564.pdf
     page: https://aclanthology.org/2022.coling-1.564/
     bibtex: https://aclanthology.org/2022.coling-1.564.bib
@@ -116,6 +132,7 @@ main:
     authors: Ping Guo, Yue Hu, Xiangpeng Wei, Yubing Ren, <strong>Yunpeng Li</strong>, Luxi Xing, Yuqiang Xie
     conference_short: EMNLP
     conference: Findings of the Association for Computational Linguistics <strong>(EMNLP)</strong>, 2022.
+    ccf: B
     pdf: https://aclanthology.org/2022.findings-emnlp.541.pdf
     page: https://aclanthology.org/2022.findings-emnlp.541/
     bibtex: https://aclanthology.org/2022.findings-emnlp.541.bib

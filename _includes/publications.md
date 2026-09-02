@@ -18,12 +18,22 @@
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       {% assign primary_link = link.pdf %}
+      {% assign note_type = link.notes | downcase %}
       <div class="title">
         {% if primary_link %}
         <a href="{{ primary_link }}" target="_blank" rel="noopener">{{ link.title }}</a>
         {% else %}
         {{ link.title }}
         {% endif %}
+        <span class="pub-title-meta">
+          {% if link.ccf %}<span class="pub-meta-item">CCF-{{ link.ccf }}</span>{% endif %}
+          {% if link.role == 'corresponding' %}
+          <span class="pub-meta-item">{% if is_zh contains "zh" %}通讯作者{% else %}Corresponding Author{% endif %}</span>
+          {% elsif link.role == 'co_advising' %}
+          <span class="pub-meta-item">{% if is_zh contains "zh" %}协助指导{% else %}Co-advising{% endif %}</span>
+          {% endif %}
+          {% if note_type == 'oral' %}<span class="pub-meta-item pub-meta-oral">Oral</span>{% endif %}
+        </span>
       </div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
@@ -44,10 +54,6 @@
       {% assign huggingface_link = link.huggingface | default: link.hugging_face %}
       {% if huggingface_link %}
       <a href="{{ huggingface_link }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Hugging Face</a>
-      {% endif %}
-      {% assign note_type = link.notes | downcase %}
-      {% if note_type == 'poster' or note_type == 'oral' %} 
-      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
       {% endif %}
     </div>
   </div>

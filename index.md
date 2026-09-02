@@ -23,8 +23,8 @@ Beyond academic research, related technologies have been deployed across multipl
 
 - **[2026]** Five CCF-A papers were published at **ICML 2026** and **ACL 2026**.
 - **[2025]** I joined the Institute of Information Engineering, Chinese Academy of Sciences as an Associate Professor.
-- **[2025]** Our paper **RepGuard** was accepted as a Poster at NeurIPS 2025.
-- **[2025]** Our paper **Not All Benignware Are Alike** was accepted as a Poster at WWW 2025.
+- **[2025]** Our paper **RepGuard** was accepted at NeurIPS 2025.
+- **[2025]** Our paper **Not All Benignware Are Alike** was accepted at WWW 2025.
 - **[2024]** Our paper **Query in Your Tongue** was presented as an Oral Paper at TheWebConf 2024.
 
 {% include_relative _includes/publications.md %}

@@ -29,8 +29,8 @@ description: 李运鹏，中国科学院信息工程研究所副研究员，主�
 
 - **[2026]** 5 篇 CCF-A 论文发表于 **ICML 2026** 和 **ACL 2026**。
 - **[2025]** 加入中国科学院信息工程研究所，任副研究员。
-- **[2025]** 论文 **RepGuard** 被 NeurIPS 2025 接收为 Poster。
-- **[2025]** 论文 **Not All Benignware Are Alike** 被 WWW 2025 接收为 Poster。
+- **[2025]** 论文 **RepGuard** 被 NeurIPS 2025 接收。
+- **[2025]** 论文 **Not All Benignware Are Alike** 被 WWW 2025 接收。
 - **[2024]** 论文 **Query in Your Tongue** 以 Oral 形式发表于 TheWebConf 2024。
 
 {% include_relative _includes/publications.md %}

@@ -2,8 +2,8 @@
 
 这是李运鹏个人学术主页的 GitHub Pages 仓库，网站地址：
 
-- English: https://liyunpeng19970428.github.io/
-- 中文: https://liyunpeng19970428.github.io/zh/
+- English: https://liyunpeng309.github.io/
+- 中文: https://liyunpeng309.github.io/zh/
 
 本文件是维护说明，不会影响网页显示。`_config.yml` 已经把 `README.md` 加入 `exclude`，因此 GitHub Pages 构建网站时会忽略它。
 
@@ -141,7 +141,7 @@ profile_affiliation: 中国科学院信息工程研究所
 
 步骤：
 
-1. 打开仓库：https://github.com/liyunpeng19970428/liyunpeng19970428.github.io
+1. 打开仓库：https://github.com/liyunpeng309/liyunpeng309.github.io
 2. 找到要修改的文件，例如 `_data/publications.yml`、`index.md`、`zh.md`。
 3. 点击右上角编辑按钮。
 4. 修改内容。
@@ -151,8 +151,8 @@ profile_affiliation: 中国科学院信息工程研究所
 
 更新后访问：
 
-- https://liyunpeng19970428.github.io/
-- https://liyunpeng19970428.github.io/zh/
+- https://liyunpeng309.github.io/
+- https://liyunpeng309.github.io/zh/
 
 ## 在本地修改并发布
 

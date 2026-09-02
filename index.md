@@ -5,9 +5,9 @@ lang: en-US
 
 ## About Me
 
-I am Yunpeng Li, an Associate Professor at the Institute of Information Engineering, Chinese Academy of Sciences. I received my Ph.D. from the same institute and was selected for an institute talent program. My research broadly explores large language models and agentic systems, with an emphasis on how models understand diverse and multilingual information, how they can be organized into agents for complex real-world tasks, and how these systems can remain reliable, secure, and controllable. Trustworthy and secure AI has been a central focus throughout this work, alongside studies in cross-lingual retrieval, controllable generation, narrative intelligence, agent orchestration, and world models.
+I am Yunpeng Li, an Associate Professor at the Institute of Information Engineering, Chinese Academy of Sciences. I received my Ph.D. from the same institute and was selected for an institute talent program. My research broadly explores large language models and agentic systems. Questions of model trustworthiness and security in real-world applications remain at the heart of my work. At the same time, I study how models can better understand the world through multimodal and multilingual understanding, cross-lingual retrieval, and narrative intelligence, and how these capabilities can be used by agents to address complex real-world tasks. A richer and more accurate understanding of inputs and environments not only improves model capabilities and application performance, but also provides an important foundation for building more reliable and secure systems.
 
-I am particularly interested in watermarking and provenance, backdoor attacks and defenses, the factuality and security of RAG, vulnerability discovery, cyber threat intelligence, and risk-aware decision support. More broadly, I aim to connect advances in model understanding and agentic intelligence with dependable applications in cybersecurity and other knowledge-intensive domains.
+My specific interests include watermarking and provenance, backdoor attacks and defenses, the factuality and security of RAG, vulnerability discovery, cyber threat intelligence, risk-aware decision support, controllable generation, agent orchestration, and world models. I aim to translate these advances into dependable applications in cybersecurity and other knowledge-intensive domains.
 
 I have led or contributed to multiple national and provincial research programs, including National 2030 Critical Infrastructure, National Key Research and Development, National Science and Technology Major Projects, and the Joint Key Fund of the National Natural Science Foundation of China. I have published more than 50 papers in international conferences and journals, including ICML, AAAI, NeurIPS, SIGIR, ACL, and related venues.
 
@@ -15,9 +15,9 @@ Beyond academic research, related technologies have been deployed across multipl
 
 ## Research Interests
 
-- **Multimodal and Multilingual Understanding:** understanding and representing diverse information across text, images, code, and network data, with interests in cross-lingual retrieval and narrative modeling.
+- **Multimodal and Multilingual Understanding:** understanding and representing diverse information across text, images, code, and network data, with interests in cross-lingual retrieval and narrative modeling. A richer and more accurate understanding of inputs and environments supports both stronger performance and more reliable, secure systems.
 - **LLM Agents and Intelligent Systems:** developing agents, orchestration methods, tool-use capabilities, and world models for complex tasks and domain applications.
-- **Trustworthy and Secure AI:** improving the reliability, security, and controllability of LLMs and agents through watermarking and provenance, secure and factual RAG, backdoor robustness, vulnerability discovery, and risk-aware decision-making. This remains the main thread connecting the broader research agenda.
+- **Trustworthy and Secure AI:** improving the reliability, security, and controllability of LLMs and agents through watermarking and provenance, secure and factual RAG, backdoor robustness, vulnerability discovery, and risk-aware decision-making. These questions remain a central concern throughout my research.
 
 ## News
 

@@ -42,8 +42,7 @@
       {% if link.pdf %} 
       <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">PDF</a>
       {% endif %}
-      {% if link.ccf %}<strong><i class="pub-ccf-note">CCF-{{ link.ccf }}</i></strong>{% endif %}
-      {% if note_type == 'oral' %}<strong><i class="pub-oral-note">Oral</i></strong>{% endif %}
+      {% if link.ccf %}<strong><i class="pub-ccf-note">CCF-{{ link.ccf }}{% if note_type == 'oral' %}{% if is_zh contains "zh" %}（Oral）{% else %} (Oral){% endif %}{% endif %}</i></strong>{% endif %}
       {% assign github_link = link.github %}
       {% if github_link == nil %}
         {% if link.code contains 'github.com' %}

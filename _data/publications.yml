@@ -57,6 +57,7 @@ main:
     bibtex: https://aclanthology.org/2026.acl-long.1024.bib
     doi: https://doi.org/10.18653/v1/2026.acl-long.1024
     image: /assets/img/paper-litvista.svg
+    notes: Oral
 
   - title: "RepGuard: Adaptive Feature Decoupling for Robust Backdoor Defense in Large Language Models"
     authors: Chenxu Niu, Jie Zhang, Yanbing Liu, <strong>Yunpeng Li</strong>, Jinta Weng, Yue Hu

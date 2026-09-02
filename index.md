@@ -23,13 +23,13 @@ In research funding and academic publishing, I have led or contributed to projec
 
 ## News
 
-- **[2026]** Three CCF-A papers were published at **ACL 2026**.
-- **[2026]** Our paper **LitVISTA** was presented as an Oral Paper at **ACL 2026**.
-- **[2026]** Our paper **IACW** was published at **ICML 2026**.
-- **[2025]** I joined the Institute of Information Engineering, Chinese Academy of Sciences as an Associate Professor.
-- **[2025]** Our paper **RepGuard** was accepted at NeurIPS 2025.
-- **[2025]** Our paper **Not All Benignware Are Alike** was accepted at WWW 2025.
-- **[2024]** Our paper **Query in Your Tongue** was presented as an Oral Paper at TheWebConf 2024.
+- **[2026-07]** Three CCF-A papers were published at **ACL 2026**.
+- **[2026-07]** Our paper **LitVISTA** was presented as an Oral Paper at **ACL 2026**.
+- **[2026-07]** Our paper **IACW** was published at **ICML 2026**.
+- **[2025-09]** Our paper **RepGuard** was accepted at NeurIPS 2025.
+- **[2025-04]** I joined the Institute of Information Engineering, Chinese Academy of Sciences as an Associate Professor.
+- **[2025-01]** Our paper **Not All Benignware Are Alike** was accepted at WWW 2025.
+- **[2024-05]** Our paper **Query in Your Tongue** was presented as an Oral Paper at TheWebConf 2024.
 
 {% include_relative _includes/publications.md %}
 

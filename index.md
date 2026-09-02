@@ -9,7 +9,7 @@ I am Yunpeng Li, an Associate Professor at the Institute of Information Engineer
 
 My current work studies how large models and LLM-based agents can be made reliable, secure, and useful in cybersecurity workflows. I am particularly interested in LLM safety, agent orchestration, vulnerability discovery, security analysis, cyber threat intelligence, and risk-aware decision support.
 
-I have led or contributed to multiple national and provincial research programs, including National 2030 Critical Infrastructure, National Key Research and Development, National Science and Technology Major Projects, and the Joint Key Fund of the National Natural Science Foundation of China. I have published more than 40 papers in international conferences and journals, including AAAI, NeurIPS, SIGIR, ACL, and related venues.
+I have led or contributed to multiple national and provincial research programs, including National 2030 Critical Infrastructure, National Key Research and Development, National Science and Technology Major Projects, and the Joint Key Fund of the National Natural Science Foundation of China. I have published more than 50 papers in international conferences and journals, including ICML, AAAI, NeurIPS, SIGIR, ACL, and related venues.
 
 Beyond academic research, related technologies have been deployed across multiple national ministries and government agencies, and have successively served major national-level settings, including the Winter Olympics, the National Two Sessions, and the Commemorative Activities Marking the 80th Anniversary of the Victory in the Chinese People's War of Resistance Against Japanese Aggression and the World Anti-Fascist War, providing strong support for cybersecurity assurance. I also led the development of a national-level regulatory operations platform, which has become a core system for analysis, risk perception, and early-warning support.
 
@@ -21,6 +21,7 @@ Beyond academic research, related technologies have been deployed across multipl
 
 ## News
 
+- **[2026]** Five CCF-A papers were published at **ICML 2026** and **ACL 2026**.
 - **[2025]** I joined the Institute of Information Engineering, Chinese Academy of Sciences as an Associate Professor.
 - **[2025]** Our paper **RepGuard** was accepted as a Poster at NeurIPS 2025.
 - **[2025]** Our paper **Not All Benignware Are Alike** was accepted as a Poster at WWW 2025.

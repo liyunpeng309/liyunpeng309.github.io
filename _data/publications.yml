@@ -1,5 +1,54 @@
 main:
 
+  - title: "IACW: Intent-Aware Controllable Watermarking for Scalable Authorial Intent Attribution"
+    authors: Hao Huang, Ruihua Zhou, JiaTang Luo, <strong>Yunpeng Li</strong>, Yuling Liu
+    conference_short: ICML
+    conference: 43rd International Conference on Machine Learning <strong>(ICML)</strong>, 2026.
+    pdf: https://openreview.net/pdf?id=AMI4RvJaS0
+    page: https://openreview.net/forum?id=AMI4RvJaS0
+    image: /assets/img/paper-iacw.svg
+    notes: Poster
+
+  - title: "Don’t Corrupt the Fact: A Trustworthy RAG Watermarking Framework based on Dual Factual Shield"
+    authors: Hao Huang, JiaTang Luo, Ruihua Zhou, <strong>Yunpeng Li</strong>, Yuling Liu
+    conference_short: ACL
+    conference: 64th Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026.
+    pdf: https://aclanthology.org/2026.acl-long.2075.pdf
+    page: https://aclanthology.org/2026.acl-long.2075/
+    bibtex: https://aclanthology.org/2026.acl-long.2075.bib
+    doi: https://doi.org/10.18653/v1/2026.acl-long.2075
+    image: /assets/img/paper-factual-shield.svg
+
+  - title: "MirageBackdoor: A Stealthy Attack that Induces Think-Well-Answer-Wrong Reasoning"
+    authors: Yizhe Zeng, Wei Zhang, <strong>Yunpeng Li</strong>, Juxin Xiao, Xiao Wang, Yuling Liu
+    conference_short: ACL
+    conference: 64th Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026.
+    pdf: https://aclanthology.org/2026.acl-long.390.pdf
+    page: https://aclanthology.org/2026.acl-long.390/
+    bibtex: https://aclanthology.org/2026.acl-long.390.bib
+    doi: https://doi.org/10.18653/v1/2026.acl-long.390
+    image: /assets/img/paper-mirage-backdoor.svg
+
+  - title: "ReasMark: A Robust Watermark for Attributing LLM Reasoning Under Knowledge Distillation Attacks"
+    authors: Peizhuo Lv, Ruihua Zhou, <strong>Yunpeng Li</strong>, Ruigang Liang, Xingshuo Han, XiaoFeng Wang, Wei Dong, Yuling Liu
+    conference_short: ACL
+    conference: 64th Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026.
+    pdf: https://aclanthology.org/2026.acl-long.2185.pdf
+    page: https://aclanthology.org/2026.acl-long.2185/
+    bibtex: https://aclanthology.org/2026.acl-long.2185.bib
+    doi: https://doi.org/10.18653/v1/2026.acl-long.2185
+    image: /assets/img/paper-reasmark.svg
+
+  - title: "LitVISTA: A Benchmark for Narrative Orchestration in Literary Text"
+    authors: Mingzhe Lu, Yiwen Wang, Yanbing Liu, Qi You, Chong Liu, Ruize Qin, Haoyu Dong, Wenyu Zhang, JiaRui Zhang, Yue Hu, <strong>Yunpeng Li</strong>
+    conference_short: ACL
+    conference: 64th Annual Meeting of the Association for Computational Linguistics <strong>(ACL)</strong>, 2026.
+    pdf: https://aclanthology.org/2026.acl-long.1024.pdf
+    page: https://aclanthology.org/2026.acl-long.1024/
+    bibtex: https://aclanthology.org/2026.acl-long.1024.bib
+    doi: https://doi.org/10.18653/v1/2026.acl-long.1024
+    image: /assets/img/paper-litvista.svg
+
   - title: "RepGuard: Adaptive Feature Decoupling for Robust Backdoor Defense in Large Language Models"
     authors: Chenxu Niu, Jie Zhang, Yanbing Liu, <strong>Yunpeng Li</strong>, Jinta Weng, Yue Hu
     conference_short: NeurIPS
